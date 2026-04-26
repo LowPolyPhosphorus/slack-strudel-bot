@@ -1,1 +1,12 @@
-
+{
+  "name": "strudel-bot",
+  "version": "1.0.0",
+  "description": "Slack bot that turns Strudel patterns into playable links",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.17.0"
+  }
+}
